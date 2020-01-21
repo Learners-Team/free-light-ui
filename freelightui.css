@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #1b1b1b;
+	font-size: 1.5rem;
+}
+/*-----------------*/
+.container,
+.container-fluid {
+	padding: 15px;
+	margin: 15px 0;
+}
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+.container-fluid {
+}
+/*-----------------*/
+.bg-dark {
+	background-color: #1b1b1b;
+}
+.bg-light {
+	
+}
+.text-dark {
+	color: #1b1b1b;
+}
+.text-light {
+	color: #efefef;;
+}
+/*-----------------*/
+.border-radius {
+	border-radius: 5px;
+}
+.border {
+	border: 1px solid lightgray;
+}
+/*-----------------*/
+.box-shadow {
+	box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.25);
+}
+/*-----------------*/
+.btn {
+	box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.25);
+	border: 0;
+	padding: 10px 15px;	
+	background-color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: box-shadow .3s;
+	font-size: 1rem;
+}
+.btn:hover {
+	box-shadow: 1px 1px 6px 0 rgba(0,0,0,0.35);
+}
+.btn:focus {
+	outline: none;
+}
+/*-----------------*/
+input {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid lightgray;
+	font-size: 1rem;
+}
+input:focus {
+	outline: none;
+	border: 1px solid gray;
+}
+/*-----------------*/
+ul li {
+	margin-left: 30px;
+}

@@ -33,7 +33,7 @@ body {
 	color: #1b1b1b;
 }
 .text-light {
-	color: #efefef;;
+	color: #efefef;
 }
 /*-----------------*/
 .border-radius {
@@ -41,6 +41,10 @@ body {
 }
 .border {
 	border: 1px solid lightgray;
+}
+/*-----------------*/
+a {
+	color: #2185d0;
 }
 /*-----------------*/
 .box-shadow {

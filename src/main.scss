@@ -1,7 +1,5 @@
 /*@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');*/
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
-@import 'marginpadding';
-@import 'fontsettings';
 * {
 	padding: 0;
 	margin: 0;
@@ -99,26 +97,26 @@ body {
 	margin-left: 30px;
 }
 /*-----------------*/
-.theme-red {
-	background-color: #db2828;
-    color: #fff;
-}
-.theme-green {
-	background-color: #21ba45;
-    color: #fff;
-}
-.theme-blue {
-    background-color: #2185d0;
-    color: #fff;
-}
-.theme-yellow {
-	background-color: #fbbd08;
-    color: #fff;
-}
-.theme-purple {
-	background-color: #a333c8;
-    color: #fff;
-}
+// .theme-red {
+// 	background-color: #db2828;
+//     color: #fff;
+// }
+// .theme-green {
+// 	background-color: #21ba45;
+//     color: #fff;
+// }
+// .theme-blue {
+//     background-color: #2185d0;
+//     color: #fff;
+// }
+// .theme-yellow {
+// 	background-color: #fbbd08;
+//     color: #fff;
+// }
+// .theme-purple {
+// 	background-color: #a333c8;
+//     color: #fff;
+// }
 /*
 	FLEX UTILS
 */
@@ -169,3 +167,7 @@ body {
 .w-100 {
 	width: 100%;
 }
+
+@import 'marginpadding';
+@import 'fontsettings';
+@import 'themecolors';

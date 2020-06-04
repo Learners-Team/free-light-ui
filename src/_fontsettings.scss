@@ -1,0 +1,17 @@
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+  
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+  
+  @return $string;
+}
+
+$i: 0;
+@while $i <= 2 {
+	$i: $i + 0.1;
+	.fsz-#{str-replace(inspect($i), '.', '')} {
+		font-size: #{$i}rem;
+	}
+}

@@ -1,0 +1,35 @@
+$step: 5;
+$steps: 4;
+$sides: (
+	'':'',
+	'l':'-left',
+	'r':'-right',
+	't':'-top',
+	'b':'-bottom',
+);
+$types: (
+	'p': 'padding',
+	'm': 'margin',
+);
+@each $side, $suffix in $sides {
+	@each $classpart, $prefix in $types {
+		@for $i from 0 through $steps {
+			.#{$classpart}#{$side}-#{$i * $step} {
+				#{$prefix}#{$suffix}: #{$i * $step}px;
+			}
+		}
+	}
+	
+}
+/*
+Generated code be like
+
+p-0 {
+	padding: 0;
+}
+pl-5 {
+	padding-left: 5px;
+}
+
+and so on with all sides and with margin
+*/

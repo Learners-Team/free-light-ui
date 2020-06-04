@@ -15,6 +15,10 @@
 	background-color: #1b1b1b;	
 	color: #efefef;
 }
+.theme-light {
+	color: #1b1b1b;	
+	background-color: #efefef;
+}
 .theme-red {
 	background-color: #db2828;
     color: #fff;
@@ -39,6 +43,15 @@
 .make-dark {
 	background-color: #1b1b1b;	
 	color: #efefef;
+	.input {
+		background-color: #1b1b1b;	
+		color: #efefef;
+		border-color: #1b1b1b;
+	}
+	.btn {
+		background-color: #1b1b1b;	
+		color: #efefef;
+	}
 	.theme-red {
 		background-color: #db2828;
 	    color: #1b1b1b;

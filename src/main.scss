@@ -23,19 +23,6 @@ body {
 .container-fluid {
 }
 /*-----------------*/
-.bg-dark {
-	background-color: #1b1b1b;
-}
-.bg-light {
-	
-}
-.text-dark {
-	color: #1b1b1b;
-}
-.text-light {
-	color: #efefef;
-}
-/*-----------------*/
 .border-radius {
 	border-radius: 5px;
 }
@@ -96,53 +83,6 @@ body {
 .ul li {
 	margin-left: 30px;
 }
-/*-----------------*/
-// .theme-red {
-// 	background-color: #db2828;
-//     color: #fff;
-// }
-// .theme-green {
-// 	background-color: #21ba45;
-//     color: #fff;
-// }
-// .theme-blue {
-//     background-color: #2185d0;
-//     color: #fff;
-// }
-// .theme-yellow {
-// 	background-color: #fbbd08;
-//     color: #fff;
-// }
-// .theme-purple {
-// 	background-color: #a333c8;
-//     color: #fff;
-// }
-/*
-	FLEX UTILS
-*/
-.d-flex {
-	display: flex;
-}
-
-.jcsb {
-	justify-content: space-between;
-}
-
-.aic {
-	align-items: center;
-}
-.flex-wrap {
-	flex-wrap: wrap;
-}
-.flex-nowrap {
-	flex-wrap: nowrap;
-}
-.flex-grow-1 {
-	flex-grow: 1;
-}
-.flex-grow-0 {
-	flex-grow: 0;
-}
 /*
 	TEXT ALIGN
 */
@@ -158,9 +98,6 @@ body {
 .brand-border-bottom {
 	border-bottom: 1px solid #008c95b0;
 }
-.fwb {
-	font-weight: bold;
-}
 /*
 	PROCENTAGE WIDTH
 */
@@ -171,3 +108,4 @@ body {
 @import 'marginpadding';
 @import 'fontsettings';
 @import 'themecolors';
+@import 'flexutils';

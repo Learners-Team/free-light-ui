@@ -51,9 +51,11 @@ body {
 	font-size: 1.2rem;
 	margin-bottom: 10px;
 	margin-top: 5px;
+	transition: 0.3s;
 }
 .btn:hover {
 	box-shadow: 1px 1px 6px 0 rgba(0,0,0,0.35);
+	filter: brightness(0.9);
 }
 .btn:focus {
 	outline: none;
